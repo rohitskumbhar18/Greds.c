@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+int marks;
+printf("Enter Your Marks : ");
+scanf("%d",&marks);
+if(marks<39)
+   {
+  	printf("F Gread");
+   }
+else if(marks>=40 && marks<=54)
+    {
+    	printf("D Gread");
+	}
+else if(marks>=55&&marks<=69)	
+    {
+      	printf("C Gread");
+	}
+else if(marks>=70 && marks<=84)
+    {
+         	printf("B Gread");
+    }
+else if(marks>=85 &&marks <=100)
+    {
+    	printf("A Gread");
+	}
+	else
+	{
+		printf("incorrect marks");
+	}
+ return 0;
+}
